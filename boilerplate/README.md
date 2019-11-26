@@ -5,7 +5,6 @@
 ```bash
 shell> mkdir boilerplate
 shell> cd boilerplate
-shell> git init
 shell> yarn init -y # or npm init -y
 shell> mkdir src
 ```
