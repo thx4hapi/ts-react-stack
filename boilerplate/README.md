@@ -285,10 +285,10 @@ module.exports = {
     // Tell the server where to serve content from - the directory which look for the index.html file
     // This is only necessary if we want to serve static files.
     // By default it will use current working directory to serve content.
-    contentBase: path.resolve(__dirname, 'src'),
+    // contentBase: '/',
 
     // Indicate the generated bundle files will placed. By default it is an in memory bundle which is not written on disk.
-    publicPath: '/dist',
+    // publicPath: '/',
 
     // Enable Hot Module Replacement feature
     hot: true,
@@ -347,10 +347,10 @@ module.exports = {
     // Tell the server where to serve content from - the directory which look for the index.html file
     // This is only necessary if we want to serve static files.
     // By default it will use current working directory to serve content.
-    contentBase: path.resolve(__dirname, 'src'),
+    // contentBase: '/',
 
     // Indicate the generated bundle files will placed. By default it is an in memory bundle which is not written on disk.
-    publicPath: '/dist',
+    // publicPath: '/',
 
     // Enable Hot Module Replacement feature
     hot: true,
@@ -446,6 +446,7 @@ module.exports = {
     "@typescript-eslint/no-non-null-assertion": 0,
     "@typescript-eslint/no-object-literal-type-assertion": 0,
     "@typescript-eslint/prefer-interface": 0,
+    "@typescript-eslint/explicit-function-return-type": 0,
     "no-debugger": process.env.NODE_ENV === "production" ? 2 : 0,
     "no-console": 0,
   }

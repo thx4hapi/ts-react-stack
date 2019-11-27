@@ -32,6 +32,7 @@ module.exports = {
     "@typescript-eslint/no-non-null-assertion": 0,
     "@typescript-eslint/no-object-literal-type-assertion": 0,
     "@typescript-eslint/prefer-interface": 0,
+    "@typescript-eslint/explicit-function-return-type": 0,
     "no-debugger": process.env.NODE_ENV === "production" ? 2 : 0,
     "no-console": 0,
   }
